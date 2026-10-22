@@ -9,7 +9,6 @@ class Solution
         {
             int left=i+1;
             int right=nums.length-1;
-            int s=-1*nums[i];
             int diff;
             while(left<right)
             {
